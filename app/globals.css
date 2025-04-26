@@ -34,3 +34,11 @@ footer {
   left: 0;
   width: 100%;
 }
+
+.icon {
+  color: var(--fontcolor);
+}
+
+.icon:hover {
+  color: var(--hovercolor);
+}

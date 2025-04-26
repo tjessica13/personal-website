@@ -2,6 +2,9 @@
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 
+import { CiCloudSun } from "react-icons/ci";
+import { CiCloudMoon } from "react-icons/ci";
+
 const ThemeSwitch = () => {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
@@ -16,11 +19,10 @@ const ThemeSwitch = () => {
   }
 
   return (
-    <select value={theme} onChange={e => setTheme(e.target.value)}>
-      <option value="system">System</option>
-      <option value="dark">Dark</option>
-      <option value="light">Light</option>
-    </select>
+    <div>
+        <button onClick={() => setTheme('light')}><CiCloudSun size={50} className="icon"></CiCloudSun></button>
+        <button onClick={() => setTheme('dark')}><CiCloudMoon size={50} className="icon"></CiCloudMoon></button>
+    </div>
   )
 }
 
