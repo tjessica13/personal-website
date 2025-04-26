@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from 'next/link';
 
 import { JetBrains_Mono } from 'next/font/google';
 
@@ -15,7 +15,7 @@ export default function Home() {
       
       <div className="flex justify-between">
         <ul>
-          <li><a href="" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">PROFESSIONAL EXPERIENCE \</a></li>
+          <li><Link href="/professional-experience" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">PROFESSIONAL EXPERIENCE \</Link></li>
           <li><a href="" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">EDUCATION \</a></li>
           <li><a href="" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">SKILLS \</a></li>
           <li><a href="" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">PROJECTS \</a></li>
