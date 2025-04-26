@@ -7,7 +7,7 @@ const Job = ({id, title, company, dates, points}) => {
                 <h3>{company}</h3>
                 <p>{dates}</p>
             </div>
-            <ul className="list-disc flex-1">
+            <ul className="list-disc flex-1 color-(--fontcolor)">
                 {points.map((point, index) => (
                     <li className="ml-6" key={index}><p>{point}</p></li>
                 ))}
