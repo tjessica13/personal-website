@@ -1,6 +1,5 @@
 import Job from '@/components/job';
 import { jobs } from '@/data/jobs';
-import "@/app/globals.css";
 
 export default function ProfessionalExperience() {
     return (

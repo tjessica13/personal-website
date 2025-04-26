@@ -1,17 +1,13 @@
 import Link from 'next/link';
 
-import { JetBrains_Mono } from 'next/font/google';
-
 import ThemeSwitch from "./ThemeSwitch";
-
-const jetBrains_Mono = JetBrains_Mono({ subsets: ['latin']});
 
 // get the current date
 const date = new Date();
 
 export default function Home() {
   return (
-    <div className={`${jetBrains_Mono.className} m-5`}>
+    <div className="m-5">
       
       <div className="flex justify-between">
         <ul>

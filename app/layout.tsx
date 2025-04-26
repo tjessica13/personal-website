@@ -1,18 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { JetBrains_Mono } from 'next/font/google';
 import "./globals.css";
 
 // adding dark mode
 import { ThemeProvider } from 'next-themes'; 
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const jetBrains_Mono = JetBrains_Mono({
+  subsets: ['latin']
 });
 
 export const metadata: Metadata = {
@@ -28,7 +22,7 @@ export default function RootLayout({
   return (
       <html suppressHydrationWarning lang="en">
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          className={`${jetBrains_Mono.className} antialiased`}
         >
           <ThemeProvider>{children}</ThemeProvider>
         </body>
