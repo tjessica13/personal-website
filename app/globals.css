@@ -3,6 +3,13 @@
 :root {
   --background: #ffffff;
   --fontcolor: #BCBCBC;
+  --hovercolor: black;
+}
+
+[data-theme='dark'] {
+  --background: #616369;
+  --fontcolor: #FBFDFE;
+  --hovercolor: #C4EBFF;
 }
 
 h1, h3, p {
