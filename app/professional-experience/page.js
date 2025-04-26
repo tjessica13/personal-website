@@ -3,9 +3,12 @@ import { jobs } from '@/data/jobs';
 
 export default function ProfessionalExperience() {
     return (
-        <div>Professional Experience
+        <div>
+            <a>PROFESSIONAL EXPERIENCE \n</a>
             {jobs.map((job) => (
+                <div key={job.id}>
                     <Job title={job.title} company={job.company} dates={job.dates} points={job.points}></Job>
+                </div>
             ))}
         </div>
     )
