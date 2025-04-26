@@ -1,14 +1,12 @@
 import Link from 'next/link';
 
-import ThemeSwitch from "./ThemeSwitch";
+import ThemeSwitch from './ThemeSwitch';
 
-// get the current date
-const date = new Date();
+import DateComponent from '@/components/date';
 
 export default function Home() {
   return (
     <div className="m-5">
-      
       <div className="flex justify-between">
         <ul>
           <li><Link href="/professional-experience" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">PROFESSIONAL EXPERIENCE \</Link></li>
@@ -18,10 +16,9 @@ export default function Home() {
           <li><a href="" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">CONTACT \</a></li>
         </ul>
         <div>
-          <p className="date">{date.getFullYear()}:{date.getMonth()+1}:{date.getDate()}</p>
+          <DateComponent></DateComponent>
           <ThemeSwitch></ThemeSwitch>
         </div>
-        
       </div>
       
       <div className="flex justify-center pt-20">
