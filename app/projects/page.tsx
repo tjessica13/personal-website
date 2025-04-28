@@ -15,13 +15,11 @@ export default function Projects() {
                     <ThemeSwitch></ThemeSwitch>
                 </div>
             </div>
-
             {projects.map((project) => (
                 <div key={project.id}>
                     <ProjectComponent title={project.title} dates={project.dates} github={project.github} points={project.points}></ProjectComponent>
                 </div>
             ))}
-            
         </div>
         
         
