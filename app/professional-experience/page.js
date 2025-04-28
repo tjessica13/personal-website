@@ -7,7 +7,7 @@ export default function ProfessionalExperience() {
     return (
         <div>
             <div className="header flex justify-between m-5">
-                <a href="/" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">HOME \ PROFESSIONAL EXPERIENCE \</a>
+                <a href="./" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">HOME \ PROFESSIONAL EXPERIENCE \</a>
                 <div>
                     <DateComponent></DateComponent>
                     <ThemeSwitch></ThemeSwitch>
