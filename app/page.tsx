@@ -12,7 +12,7 @@ export default function Home() {
           <li><Link href="./professional-experience" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">PROFESSIONAL EXPERIENCE \</Link></li>
           <li><a href="./projects" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">PROJECTS \</a></li>
           <li><a href="./about-me" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">ABOUT ME \</a></li>
-          <li><a href="./" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">CONTACT \</a></li>
+          <li><a href="./contact" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">CONTACT \</a></li>
         </ul>
         <div>
           <DateComponent></DateComponent>
