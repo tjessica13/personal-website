@@ -10,9 +10,8 @@ export default function Home() {
       <div className="flex justify-between">
         <ul>
           <li><Link href="./professional-experience" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">PROFESSIONAL EXPERIENCE \</Link></li>
-          <li><a href="./" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">EDUCATION \</a></li>
-          <li><a href="./" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">SKILLS \</a></li>
           <li><a href="./projects" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">PROJECTS \</a></li>
+          <li><a href="./" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">ABOUT ME \</a></li>
           <li><a href="./" className="hover:ml-12 hover:text-(--hovercolor) text-(--fontcolor)">CONTACT \</a></li>
         </ul>
         <div>
