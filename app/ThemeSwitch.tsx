@@ -19,7 +19,7 @@ const ThemeSwitch = () => {
   }
 
   return (
-    <div className="flex">
+    <div className="flex justify-center">
         <button onClick={() => setTheme('light')} title='light mode'><CiCloudSun size={50} className="icon"></CiCloudSun></button>
         <button onClick={() => setTheme('dark')} title='dark mode'><CiCloudMoon size={50} className="icon"></CiCloudMoon></button>
     </div>

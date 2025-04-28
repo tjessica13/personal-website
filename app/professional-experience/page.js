@@ -19,7 +19,7 @@ export default function ProfessionalExperience() {
                     <Job title={job.title} company={job.company} dates={job.dates} points={job.points}></Job>
                 </div>
             ))}
-            <p className="copyright flex justify-end m-5">&copy; Jessica Tan</p>
+            <p className="copyright flex justify-end">&copy; Jessica Tan</p>
         </div>
     )
 }

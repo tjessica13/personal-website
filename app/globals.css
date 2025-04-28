@@ -16,6 +16,10 @@ h1, h3, p {
   color: var(--fontcolor);
 }
 
+h2 {
+  color: var(--hovercolor);
+}
+
 a {
   font-size: 36px;
 }
@@ -37,4 +41,12 @@ footer {
 
 .icon:hover {
   color: var(--hovercolor);
+}
+
+p {
+  margin: 20px;
+}
+
+#copyright {
+  bottom: 0;
 }
