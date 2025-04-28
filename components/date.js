@@ -4,7 +4,7 @@ const date = new Date();
 
 const DateComponent = () => {
     return (
-        <p className="date">{date.getFullYear()}:{date.getMonth()+1}:{date.getDate()}</p>
+        <p className="date text-center">{date.getFullYear()}:{date.getMonth()+1}:{date.getDate()}</p>
     )
 }
 

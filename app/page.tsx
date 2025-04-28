@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div className="flex justify-center pt-20">
+      <div className="sm:flex justify-center pt-20">
         <h3>a website created by</h3>
         <h1>Jessica Tan</h1>
       </div>

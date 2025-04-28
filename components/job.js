@@ -1,9 +1,9 @@
 
 const Job = ({id, title, company, dates, points}) => {
     return (
-        <div className="flex p-15">
-            <div className="flex-1 border-solid border-r border-(--fontcolor)">
-                <h1>{title}</h1>
+        <div className="p-5 sm:flex sm:p-15">
+            <div className="sm:flex-1 sm:border-solid sm:border-r sm:border-(--fontcolor) p-5">
+                <h1 className="text-2xl sm:text-4xl">{title}</h1>
                 <p>Co-op</p>
                 <h3>{company}</h3>
                 <p>{dates}</p>
