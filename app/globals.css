@@ -3,7 +3,7 @@
 :root {
   --background: #ffffffda;
   --fontcolor: black;
-  --hovercolor: black;
+  --hovercolor: #69cbfc;
 }
 
 [data-theme='dark'] {
