@@ -12,11 +12,9 @@ export default function Contact() {
                 </div>
             </div>
             
-            <h1 className="text-right text-8xl">jessicatan.business@gmail.com</h1>
-            <a href="https://www.linkedin.com/in/t-jessica/"><h1 className="text-8xl">https://www.linkedin.com/in/t-jessica/</h1></a>
-            <a href="https://github.com/tjessica13"><h1 className="text-right text-8xl">https://github.com/tjessica13</h1></a>
-
-            <p className="copyright flex justify-end">&copy; Jessica Tan</p>
+            <h1 className="text-center text-xl">jessicatan.business@gmail.com</h1>
+            <a href="https://www.linkedin.com/in/t-jessica"><h1 className="text-center text-xl">https://www.linkedin.com/in/t-jessica/</h1></a>
+            <a href="https://github.com/tjessica13"><h1 className="text-center text-xl">https://github.com/tjessica13</h1></a>
         </div>
     )
 }

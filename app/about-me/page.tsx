@@ -19,7 +19,7 @@ export default function AboutMe() {
                 </div>
             </div>
 
-            <div className="text-center mt-25 mb-25"><h2 className={`${sedgwick_Ave_Display.className} name text-6xl`}>Jessica Tan</h2>
+            <div className="text-center mt-25 mb-25"><h2 className="name text-6xl">Jessica Tan</h2>
                 <h3>[Software Developer, Web Developer]</h3>
                 <p>
                     I have a combined 1.5 years of co-op work experience with 2 terms at Ross Video,<br />
