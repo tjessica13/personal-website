@@ -1,3 +1,11 @@
+## Project Overview
+This is a personal portfolio website for showcasing projects I have worked on. 
+
+## User Interface Design sketches from Figma.
+![image](https://github.com/user-attachments/assets/057e7af8-6bde-42dc-82fa-27a3d0823aa7)
+
+## Development
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
